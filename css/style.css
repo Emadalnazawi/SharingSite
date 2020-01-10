@@ -77,29 +77,6 @@ h2 {
     text-align: center;
 }
 
-.login input[type=button]{
-    width: 260px;
-	height: 35px;
-	background: #fff;
-	border: 1px solid #fff;
-	cursor: pointer;
-	border-radius: 2px;
-	color: #a18d6c;
-	font-family: 'Tajawal', sans-serif;
-	font-size: 18px;
-	font-weight: 500;
-	padding: 6px;
-	margin-top: 10px;
-}
-
-.login input[type=button]:hover{
-    opacity: 0.8;
-}
-
-.login [type=button]:active{
-    opacity: 0.6;
-}
-
 .login input[type=text]:focus{
     outline: none;
 	border: 1px solid rgba(255,255,255,0.9);
@@ -110,16 +87,6 @@ h2 {
 	border: 1px solid rgba(255,255,255,0.9);
 }
 
-.login input[type=button]:focus{
-    outline: none;
-}
-::-webkit-input-placeholder{
-   color: rgba(255,255,255,0.6);
-}
-
-::-moz-input-placeholder{
-   color: rgba(255,255,255,0.6);
-}
 .logh {
     text-align: center;
 }
@@ -155,4 +122,38 @@ p {
 	width: 70%;
 	height: auto;
 	margin: 0 auto;
+}
+
+bottun {
+	display: block;
+}
+
+bottun a{
+	position: relative;
+	width: 200px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #a18d6c;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 10px auto;
+	display: block;
+	text-decoration: none;
+	padding: 6px;
+	
+}
+
+bottun a:hover{
+	opacity: 0.8;
+}
+
+bottun a:active{
+	opacity: 0.6;
+}
+
+bottun a:focus{
+	outline: none;
 }
