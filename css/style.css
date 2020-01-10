@@ -1,0 +1,158 @@
+
+body {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background: rgb(66,39,90);
+background: linear-gradient(75deg, rgba(66,39,90,1) 0%, rgba(115,75,109,1) 100%);
+    font-family: 'Tajawal', sans-serif;
+}
+
+img {
+    height: 100px;
+}
+}
+
+.alinimage {
+	width: 100%;
+	align-content: center;
+	margin: 0 auto;
+	float: right;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 300;
+}
+
+.header {
+    position: relative;
+	z-index: 2;
+    padding: 5px;
+}
+
+.header div {
+	color: #fff;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.login {
+    position: relative;
+	padding: 10px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    
+}
+
+.login input[type=text]{
+    width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 18px;
+	font-weight: 200;
+	padding: 4px;
+    text-align: center;
+}
+
+.login input[type=password]{
+    width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 18px;
+	font-weight: 200;
+	padding: 4px;
+	margin-top: 10px;
+    text-align: center;
+}
+
+.login input[type=button]{
+    width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+    opacity: 0.8;
+}
+
+.login [type=button]:active{
+    opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+    outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+    outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+    outline: none;
+}
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+.logh {
+    text-align: center;
+}
+
+.form-holder {
+    display: block;
+    padding: 10px;
+}
+
+.copyright a{
+    color: #eeeeee;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+footer {
+    display: block;
+    height: 100px;
+    padding-top: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+
+
+.alinimage img{
+	display: block;
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+}
