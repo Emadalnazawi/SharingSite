@@ -55,6 +55,7 @@ background: linear-gradient(225deg, rgba(43,88,118,1) 0%, rgba(78,67,118,1) 100%
 	width: 96%;
 	padding: 2%;
 	
+
 }
 
 .shvalue p{
@@ -289,7 +290,7 @@ background: linear-gradient(288deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100
     font-size: 1.3em;
     line-height: 30px;
     display: block;
-    padding: 5px 0px;
+    padding: 5px 0 ;
     color:#ffffff;
 	background-image: linear-gradient(to left, #33001b 0%, #ff0084 100%);
 }
@@ -307,53 +308,53 @@ background: linear-gradient(288deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100
 
 
 .shvalue img{
-	width: 30%;
+	width: 25%;
 }
 
 .subscribers img{
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: auto;
 }
 
 .subscribeDate img{
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: auto;
 }
 
 .badg img{
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: auto;
 	
 }
 
 .subscribeAmount img{
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: auto;
 	
 }
 
 .subscribeAmount img{
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: auto;
 	
 }
 
 .savedMoney img{
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: auto;
 	
 }
 
 .loan img{
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: auto;
 	
 }
 
 footer {
 	position: relative;
 	display: block;
-	height: 80px;
+	height: 60px;
 	width: 100%;
 	float: right;
 	background-color: #222222 ;

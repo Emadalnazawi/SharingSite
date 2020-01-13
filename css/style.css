@@ -1,23 +1,21 @@
-
 body {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    background: rgb(66,39,90);
-background: linear-gradient(75deg, rgba(66,39,90,1) 0%, rgba(115,75,109,1) 100%);
+    background: rgb(66, 39, 90);
+    background: linear-gradient(75deg, rgba(66, 39, 90, 1) 0%, rgba(115, 75, 109, 1) 100%);
     font-family: 'Tajawal', sans-serif;
 }
 
 img {
     height: 100px;
 }
-}
 
 .alinimage {
-	width: 100%;
-	align-content: center;
-	margin: 0 auto;
-	float: right;
+    width: 100%;
+    align-content: center;
+    margin: 0 auto;
+    float: right;
 }
 
 h2 {
@@ -28,63 +26,63 @@ h2 {
 
 .header {
     position: relative;
-	z-index: 2;
+    z-index: 2;
     padding: 5px;
 }
 
 .header div {
-	color: #fff;
-	font-family: 'Tajawal', sans-serif;
-	font-size: 20px;
-	font-weight: 200;
+    color: #fff;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 .login {
     position: relative;
-	padding: 10px;
+    padding: 10px;
     text-align: center;
     width: 400px;
     margin: 0 auto;
-    
+
 }
 
-.login input[type=text]{
+.login input[type=text] {
     width: 250px;
-	height: 30px;
-	background: transparent;
-	border: 1px solid rgba(255,255,255,0.6);
-	border-radius: 2px;
-	color: #fff;
-	font-family: 'Tajawal', sans-serif;
-	font-size: 18px;
-	font-weight: 200;
-	padding: 4px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 4px;
     text-align: center;
 }
 
-.login input[type=password]{
+.login input[type=password] {
     width: 250px;
-	height: 30px;
-	background: transparent;
-	border: 1px solid rgba(255,255,255,0.6);
-	border-radius: 2px;
-	color: #fff;
-	font-family: 'Tajawal', sans-serif;
-	font-size: 18px;
-	font-weight: 200;
-	padding: 4px;
-	margin-top: 10px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 4px;
+    margin-top: 10px;
     text-align: center;
 }
 
-.login input[type=text]:focus{
+.login input[type=text]:focus {
     outline: none;
-	border: 1px solid rgba(255,255,255,0.9);
+    border: 1px solid rgba(255, 255, 255, 0.9);
 }
 
-.login input[type=password]:focus{
+.login input[type=password]:focus {
     outline: none;
-	border: 1px solid rgba(255,255,255,0.9);
+    border: 1px solid rgba(255, 255, 255, 0.9);
 }
 
 .logh {
@@ -96,7 +94,7 @@ h2 {
     padding: 10px;
 }
 
-.copyright a{
+.copyright a {
     color: #eeeeee;
     text-decoration: none;
     text-align: center;
@@ -117,43 +115,43 @@ p {
 
 
 
-.alinimage img{
-	display: block;
-	width: 70%;
-	height: auto;
-	margin: 0 auto;
+.alinimage img {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
 }
 
 bottun {
-	display: block;
+    display: block;
 }
 
-bottun a{
-	position: relative;
-	width: 200px;
-	background: #fff;
-	border: 1px solid #fff;
-	cursor: pointer;
-	border-radius: 3px;
-	color: #a18d6c;
-	font-family: 'Tajawal', sans-serif;
-	font-size: 18px;
-	font-weight: 500;
-	margin: 10px auto;
-	display: block;
-	text-decoration: none;
-	padding: 6px;
-	
+bottun a {
+    position: relative;
+    width: 250px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #a18d6c;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px auto;
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+
 }
 
-bottun a:hover{
-	opacity: 0.8;
+bottun a:hover {
+    opacity: 0.8;
 }
 
-bottun a:active{
-	opacity: 0.6;
+bottun a:active {
+    opacity: 0.6;
 }
 
-bottun a:focus{
-	outline: none;
+bottun a:focus {
+    outline: none;
 }
