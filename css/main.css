@@ -2,388 +2,114 @@ body {
     color: #eeeeee;
     margin: 0;
     padding: 0;
-    background: rgb(43,88,118);
-background: linear-gradient(225deg, rgba(43,88,118,1) 0%, rgba(78,67,118,1) 100%);
+    background: #23074d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     font-family: 'Tajawal', sans-serif;
+    font-size: 24px;
     font-weight: 200;
-}
-
-.sn {
     text-align: center;
-    font-size: 4em;
-	margin-bottom: 0;
 }
 
-.sname {
-    text-align: center;
-    font-weight: 300;
-    font-size: 2em;
-	margin: 0 0 20px 0 ;
-}
+.sn {} /* NOTE الرقم المميز */
 
-.date {
+.sname {} /* NOTE اسم المشترك */
+
+#date {
+    float: left;
     width: 50%;
-    float: right;
-    text-align: center;
-    position: relative;
-    margin: 0 auto;
-    font-size: 20px;
-}
+} /* NOTE التاريخ */
 
-.dateName {
+#dateName {
+    float: left;
     width: 50%;
-    float: right;
-    text-align: center;
-    position: relative;
-    margin: 0 auto;
-    font-size: 20px;
-}
+} /* NOTE  اليوم */
 
-.boxValue {
-	float: right;
-    position: relative;
+.boxescontainer {
+    float: left;
     display: block;
-    padding: 2%;
-	width: 92%;
-	margin: 2%;
+    width: 100%;
 }
 
-.shvalue {
-    position: relative;
-    text-align: center;
-    margin: 4% auto;
-	width: 96%;
-	padding: 2%;
-	
-
+.mainBox {
+    float: left;
+    width: 100%;
 }
 
-.shvalue p{
-    margin: 5px;
-    font-size: 1.5em;
+.mainBox h3 {
+    margin: 10px;
 }
 
-.shvalue div{
-    font-weight: 400;
-    font-size: 2em;
+.mainBox1 {
+    margin: 0 auto;
+    padding: 18px;
+    width: 200px;
+    background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.7;
+    border-radius: 20px;
+    transition: .2s;
 }
 
-.subscribers {
-    text-align: center;
-    width: 46%;
-    float: right;
-    padding: 1%;
-	margin: 1%;
-	opacity: .8;
+.mainBox1 img {
+    width: 80%;
 }
 
-.subscribeDate {
-    text-align: center;
-    width: 46%;
-    float: right;
-    padding: 1%;
-    margin: 1%;
-	opacity: .8;
+.mainBox1 p {
+    width: 100%;
+    margin: 0;
+    color: #111111;
+    font-weight: 300;
 }
 
-.subscribeAmount {
-    text-align: center;
-    width: 46%;
-    float: right;
-    padding: 1%;
-    margin: 1%;
-	opacity: .8;
-}
+.mainBox1:hover {
 
-.badg {
-    text-align: center;
-    width: 46%;
-    float: right;
-    padding: 1%;
-    margin: 1%;
-	opacity: .8;
-}
-
-.savedMoney {
-    text-align: center;
-    width: 46%;
-    float: right;
-    padding: 1%;
-    margin: 1%;
-	opacity: .8;
-}
-
-.loan {
-    text-align: center;
-    width: 46%;
-    float: right;
-    padding: 1%;
-    margin: 1%;
-	opacity: .8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-timing-function: ease-out;
+    opacity: 1;
 }
 
 .userData {
-    position: relative;
+    float: left;
     width: 100%;
-    height: 100%;
-    
+    margin: 20px 0;
 }
 
-.subscribers p{
+.userDataBox {
+    float: left;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.userDataBox h5 {
+    margin: 4px ;
+}
+
+.userDataBox1 {
+    width: 140px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+    border-radius: 20px;
+    transition: .5s;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.userDataBox1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-timing-function: ease-out;
+    opacity: 1;
+}
+
+.userDataBox1 img {
+    width: 40%;
+}
+
+.userDataBox1 p {
+    width: 100%;
     margin: 0;
-    font-size: 1.5em;
-}
-
-.subscribers div{
-    font-weight: 300;
-    font-size: 1.2em;
-}
-
-.subscribeDate div{
-    font-weight: 300;
-    font-size: 1.2em;
-}
-
-.subscribeDate p{
-    margin: 0;
-    font-size: 1.5em;
-}
-
-.badg div{
-    font-weight: 300;
-    font-size: 1.2em;
-}
-
-.badg p{
-    margin: 0;
-    font-size: 1.5em;
-}
-
-.subscribeAmount div{
-    font-weight: 300;
-    font-size: 1.2em;
-}
-
-.subscribeAmount p{
-    margin: 0;
-    font-size: 1.5em;
-}
-
-.savedMoney div{
-    font-weight: 300;
-    font-size: 1.2em;
-}
-
-.savedMoney p{
-    margin: 0;
-    font-size: 1.5em;
-}
-
-.loan div{
-    font-weight: 300;
-    font-size: 1.2em;
-}
-
-.loan p{
-    margin: 0;
-    font-size: 1.5em;
-}
-
-.shvalue:hover {
-	background-color: aliceblue;
-	border-radius: 50px;
-	color: #333333;
-	font-weight: 400;
-	transition: 1s;
-	opacity: 1;
-	box-shadow: 1px 1px 2px #ffffff;
-}
-
-.subscribers:hover {
-	background-color: aliceblue;
-	border-radius: 50px;
-	color: #333333;
-	font-weight: 400;
-	transition: .6s;
-	opacity: 1;
-	box-shadow: 1px 1px 2px #ffffff;
-}
-
-.subscribeDate:hover {
-    background-color: aliceblue;
-	border-radius: 50px;
-	color: #333333;
-	font-weight: 400;
-	transition: .6s;
-	opacity: 1;
-	box-shadow: 1px 1px 2px #ffffff;
-}
-
-.badg:hover {
-    background-color: aliceblue;
-	border-radius: 50px;
-	color: #333333;
-	font-weight: 400;
-	transition: .6s;
-	opacity: 1;
-	box-shadow: 1px 1px 2px #ffffff;
-}
-
-.subscribeAmount:hover {
-    background-color: aliceblue;
-	border-radius: 50px;
-	color: #333333;
-	font-weight: 400;
-	transition: .6s;
-	opacity: 1;
-	box-shadow: 1px 1px 2px #ffffff;
-}
-
-.savedMoney:hover {
-    background-color: aliceblue;
-	border-radius: 50px;
-	color: #333333;
-	font-weight: 400;
-	transition: .6s;
-	opacity: 1;
-	box-shadow: 1px 1px 2px #ffffff;
-}
-
-.loan:hover {
-    background-color: aliceblue;
-	border-radius: 50px;
-	color: #333333;
-	font-weight: 400;
-	transition: .6s;
-	opacity: 1;
-	box-shadow: 1px 1px 2px #ffffff;
-}
-
-#menu {
-    width: 200px;
-background: linear-gradient(288deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
-    display: block;
-    position: fixed;
-    z-index: 1;
-    height: 100%;
-    border-bottom-left-radius: 10px;
-}
-
-#menu ul {
-   margin:50px auto;
-    padding: 0;
-}
-
-#menu ul li {
-    position: relative;
-    display: block;
-    list-style: none;
-    border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
-	margin-bottom: 10px;
-}
-
-#menu ul li a{
-    text-align: center;
-    position: relative;
-    text-decoration: none;
-    font-size: 1.3em;
-    line-height: 30px;
-    display: block;
-    padding: 5px 0 ;
-    color:#ffffff;
-	background-image: linear-gradient(to left, #33001b 0%, #ff0084 100%);
-}
-
-
-
-#menu ul li a:hover {
-    background-image: linear-gradient(to right, #33001b 0%, #ff0084 100%);
-	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
-	width: 90%;
-	 transition: 1s;
-}
-
-
-
-.shvalue img{
-	width: 25%;
-}
-
-.subscribers img{
-	width: 30%;
-	height: auto;
-}
-
-.subscribeDate img{
-	width: 30%;
-	height: auto;
-}
-
-.badg img{
-	width: 30%;
-	height: auto;
-	
-}
-
-.subscribeAmount img{
-	width: 30%;
-	height: auto;
-	
-}
-
-.subscribeAmount img{
-	width: 30%;
-	height: auto;
-	
-}
-
-.savedMoney img{
-	width: 30%;
-	height: auto;
-	
-}
-
-.loan img{
-	width: 30%;
-	height: auto;
-	
-}
-
-footer {
-	position: relative;
-	display: block;
-	height: 60px;
-	width: 100%;
-	float: right;
-	background-color: #222222 ;
-	text-align: center;
-}
-
-
-
-footer q {
-	top: 50%;
-	position: relative;
-}
-
-.active {
-	
-}
-
-#menu span{
-	float: left;
-	display: block;
-	background: linear-gradient(288deg, rgba(240,152,25,1) 100%,
-		rgba(255,81,47,1) 0%);
-	margin-left: -40px;
-	padding: 5px;
-	width: 30px;
-	height: 40px;
-	text-align: center;	
-	font-size: 40px;
-	cursor: pointer;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
 }
