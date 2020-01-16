@@ -1,0 +1,34 @@
+h1 {
+    margin: 90px 0 ;
+    font-size: 3em;
+}
+.loanbox {
+    width: 46%;
+    height: 200px;
+    position: relative;
+    padding: 2%;
+    float: right;
+}
+
+.loanbox img {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    background-image: #fff;
+}
+
+.loanbox h3 {
+    margin: 10px;
+    font-weight: 400;
+    font-size: 1.6em;
+}
+
+.loanbox p {
+    margin: 10px auto;
+    font-size: 1.5em;
+}
+
+footer {
+    margin-top: 30px !important;
+}

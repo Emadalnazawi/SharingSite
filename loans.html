@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/loans.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal:200,300,400,500,700,800,900&display=swap" rel="stylesheet">
+    <title>القروض</title>
+</head>
+
+<body dir="rtl">
+
+    <h1>القروض</h1>
+
+    <div class="loanbox">
+        <h3>قيمة القرض</h3>
+        <img src="images/loanValue.png" alt="">
+        <p>8.000 <span>﷼</span></p>
+    </div>
+    <div class="loanbox">
+        <h3>قيمة القسط</h3>
+        <img src="images/FirstLoan.png" alt="">
+        <p>800 <span>﷼</span></p>
+    </div>
+    <div class="loanbox">
+        <h3>الأقساط المدفوعة</h3>
+        <img src="images/pay.png" alt="">
+        <p>2</p>
+    </div>
+    <div class="loanbox">
+        <h3>الأقساط المتبقية</h3>
+        <img src="images/spend-time.png" alt="">
+        <p>8</p>
+    </div>
+    <div class="loanbox">
+        <h3>تاريخ آخر قسط</h3>
+        <img src="images/calendar.png" alt="">
+        <p>27 / 7 / 2020</p>
+    </div>
+    <div class="loanbox">
+        <h3>تاريخ أول قسط</h3>
+        <img src="images/new-year.png" alt="">
+        <p>27 / 9 / 2019</p>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="main.html">الصفحة الرئيسية</a>
+        <a href="loans.html">القروض</a>
+        <a href="#">المدفوعات</a>
+        <a href="#">حساب الجمعية</a>
+        <a href="#">أهداف الجمعية</a>
+        <a href="#" class="settings">الإعدادات</a>
+    </div>
+
+    <span id="openSide" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <footer><q>قرشك الأبيض ليومك الأسود</q></footer>
+    <script>
+        var d = new Date(); // NOTE التاريخ كاملا
+        var y = d.getFullYear(); // NOTE السنة
+        var m = d.getMonth() + 1; // NOTE الشهر
+        var dd = d.getDate(); // NOTE اليوم
+        var all = dd + " / " + m + " / " + y;
+        var dname = d.toLocaleDateString("ar", {
+            weekday: "long"
+        });
+        document.getElementById("date").innerHTML = all;
+        document.getElementById("dateName").innerHTML = dname;
+        //        وظيفة فتح القائمة الجانبية
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        //            وظيفة اغلاق القائمة الجانبية
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+    </script>
+</body>
+
+</html>
