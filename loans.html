@@ -10,8 +10,9 @@
 </head>
 
 <body dir="rtl">
+    <span id="openSide"  onclick="openNav()">&#9776; </span>
 
-    <h1>القروض</h1>
+    <h1 class="header">القروض</h1>
 
     <div class="loanbox">
         <h3>قيمة القرض</h3>
@@ -53,7 +54,7 @@
         <a href="#" class="settings">الإعدادات</a>
     </div>
 
-    <span id="openSide" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
     <footer><q>قرشك الأبيض ليومك الأسود</q></footer>
     <script>
         var d = new Date(); // NOTE التاريخ كاملا
@@ -68,7 +69,7 @@
         document.getElementById("dateName").innerHTML = dname;
         //        وظيفة فتح القائمة الجانبية
         function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("mySidenav").style.width = "75%";
         }
         //            وظيفة اغلاق القائمة الجانبية
         function closeNav() {

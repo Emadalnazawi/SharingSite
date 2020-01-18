@@ -6,11 +6,11 @@ body {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #cc5333, #23074d);
     /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(bottom, #cc5333, #23074d);
     background: linear-gradient(to top, #cc5333, #23074d);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     font-family: 'Tajawal', sans-serif;
-    font-size: 100%;
+    font-size: 1.3em;
     font-weight: 200;
     text-align: center;
 }
@@ -20,52 +20,61 @@ body {
     display: block;
     position: absolute;
     right: 0;
-    top: 20px;
+    top: 5%;
+    z-index: 1;
+    -webkit-transition: 0.4s;
     transition: 0.4s;
     position: fixed;
-    width: 80px;
+    padding: 5px;
+    width: 35px;
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
-    border: 1px solid;
     background-color: antiquewhite;
-    color:chocolate;
+    color: chocolate;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    cursor: pointer;
 
 }
 
 #openSide:hover {
+    -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     box-shadow: 0 0 0;
 }
 
 .sidenav {
-    height: 50%;
-    width: 0;
+    height: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
-    left: 0;
     background: rgb(66, 39, 90);
+    background: -webkit-linear-gradient(15deg, rgba(66, 39, 90, 1) 0%, rgba(115, 75, 109, 1) 100%);
     background: linear-gradient(75deg, rgba(66, 39, 90, 1) 0%, rgba(115, 75, 109, 1) 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     overflow-x: hidden;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
-    padding-top: 60px;
-    right: 0;
+    padding-top: 50px;
     text-align: right;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
+    width: 0 !important;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 8px;
+    position: relative;
+    padding: 10px 30px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.2em;
     color: #ffffff;
     display: block;
-    transition:all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
 
@@ -78,14 +87,17 @@ body {
 
 .settings {
     float: right;
-    bottom: 20px;
+    top: 70%;
+    width: 96%;
+    display: inline-block;
     position: absolute !important;
-    width: 234px !important;
     text-align: center !important;
-    background-color:burlywood;
+    background-color: burlywood;
     color: #555555 !important;
     font-weight: 400 !important;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
+    padding: 2% !important;
 }
 
 .settings:hover {
@@ -97,6 +109,7 @@ body {
     top: 0;
     left: 0px;
     font-size: 40px;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     padding: 10px;
     border-radius: 50px;
@@ -109,7 +122,6 @@ body {
     background-color: transparent;
 }
 
-
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
@@ -120,31 +132,29 @@ body {
     }
 }
 
-
 /* NOTE الرقم المميز */
 .sn {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 /* NOTE اسم المشترك */
 .sname {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 /* NOTE التاريخ */
 #date {
     float: left;
     width: 50%;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
-/* NOTE  اليوم */
+/* NOTE اليوم */
 #dateName {
     float: left;
     width: 50%;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
-
 
 .boxescontainer {
     float: left;
@@ -160,23 +170,25 @@ body {
 
 .mainBox h3 {
     margin: 10px;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 
 .mainBox1 {
     margin: 0 auto;
     padding: 18px;
-    width: 250px;
-    height:250px;
+    width: 50%;
+    height: 50%;
     background: #FFEFBA;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);
     /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(bottom, #FFFFFF, #FFEFBA);
     background: linear-gradient(to top, #FFFFFF, #FFEFBA);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     opacity: 0.8;
     border-radius: 20px;
-    transition: .2s;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
 }
 
 .mainBox1 img {
@@ -192,8 +204,8 @@ body {
 }
 
 .mainBox1:hover {
-
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     opacity: 1;
 }
@@ -212,17 +224,19 @@ body {
 
 .userDataBox h5 {
     margin: 4px;
-    font-size: 1.7em;
+    font-size: 1em;
     font-weight: 400;
 }
 
 .userDataBox1 {
-    width: 180px ;
-    height: 180px;
+    width: 40%;
+    height: 40%;
     margin: 0 auto;
+    background: -webkit-linear-gradient(top, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
     background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
     background-blend-mode: multiply;
     border-radius: 20px;
+    -webkit-transition: .5s;
     transition: .5s;
     padding: 10px;
     opacity: 0.8;
@@ -230,29 +244,32 @@ body {
 
 .userDataBox1:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     opacity: 1;
 }
 
 .userDataBox1 img {
-    width: 75%;
+    width: 70%;
 }
 
 .userDataBox1 p {
     width: 100%;
     margin: 0;
-    font-size: 1.7em;
+    font-size: 1em;
 }
 
 footer {
     float: left;
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     margin: 0;
     background-color: blanchedalmond;
     color: #222222;
+    font-size: 1em;
 }
 
 footer q {
     width: 80%;
+
 }
