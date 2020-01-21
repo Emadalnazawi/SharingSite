@@ -62,12 +62,13 @@ body {
     text-align: right;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
-    width: 0 !important;
+    width: 0;
+    right: -20px;
 }
 
 .sidenav a {
     position: relative;
-    padding: 10px 30px;
+    padding: 10px 10px ;
     text-decoration: none;
     font-size: 1.2em;
     color: #ffffff;
