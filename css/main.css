@@ -50,8 +50,8 @@ body {
     z-index: 2;
     top: 0;
     background: rgb(66, 39, 90);
-    background: -webkit-linear-gradient(15deg, rgba(66, 39, 90, 1) 0%, rgba(115, 75, 109, 1) 100%);
-    background: linear-gradient(75deg, rgba(66, 39, 90, 1) 0%, rgba(115, 75, 109, 1) 100%);
+    background: -webkit-linear-gradient(15deg, rgba(66, 39, 90, 0.9) 0%, rgba(115, 75, 109, 0.9) 100%);
+    background: linear-gradient(75deg, rgba(66, 39, 90, 0.9) 0%, rgba(115, 75, 109, 0.9) 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
@@ -63,7 +63,6 @@ body {
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     width: 0;
-    right: -20px;
 }
 
 .sidenav a {
